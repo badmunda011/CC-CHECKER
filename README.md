@@ -6,5 +6,5 @@ make sure to update proxies!!
 
 ## Click below deploy button to host it on heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+https://github.com/DAXXTEAM/CC-CHECKER
 
