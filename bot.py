@@ -127,9 +127,9 @@ async def info(message: types.Message):
 
 <b>𝐍𝙰𝙼𝙴❥︎ </b> {first}
 
-<b>𝐁𝙾𝚃❥︎ </b> {is_bot}
+<b>𝐁𝙾𝚃❥︎ </b> @{BOT_USERNAME}
 
-<b>𝐁𝙾𝚃 𝐎𝚆𝙽𝙴𝚁❥︎ </b> {await is_owner(user_id)}
+<b>𝐁𝙾𝚃 𝐎𝚆𝙽𝙴𝚁❥︎ </b> {OWNER}
 ╘═════════''')
 
 
