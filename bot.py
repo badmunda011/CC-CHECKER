@@ -119,12 +119,17 @@ async def info(message: types.Message):
         first = message.from_user.first_name
     await message.reply(f'''
 ═════════╕
-<b>USER INFO</b>
-<b>USER ID:</b> <code>{user_id}</code>
-<b>USERNAME:</b> @{username}
-<b>FIRSTNAME:</b> {first}
-<b>BOT:</b> {is_bot}
-<b>BOT-OWNER:</b> {await is_owner(user_id)}
+<b>𝐔𝚂𝙴𝚁 𝐈𝙽𝙵𝙾𝚁𝙼𝙰𝙽𝚃𝙾𝙽</b>
+
+<b>𝐔𝚂𝙴𝚁 𝐈𝙳❥︎ </b> <code>{user_id}</code>
+
+<b>𝐔𝚂𝙴𝚁𝙽𝙰𝙼𝙴❥︎ </b> @{username}
+
+<b>𝐍𝙰𝙼𝙴❥︎ </b> {first}
+
+<b>𝐁𝙾𝚃❥︎ </b> {is_bot}
+
+<b>𝐁𝙾𝚃 𝐎𝚆𝙽𝙴𝚁❥︎ </b> {await is_owner(user_id)}
 ╘═════════''')
 
 
