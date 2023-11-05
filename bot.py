@@ -128,8 +128,6 @@ async def info(message: types.Message):
 <b>𝐍𝙰𝙼𝙴❥︎ </b> {first}
 
 <b>𝐁𝙾𝚃❥︎ </b> @{BOT_USERNAME}
-
-<b>𝐁𝙾𝚃 𝐎𝚆𝙽𝙴𝚁❥︎ </b> {OWNER}
 ╘═════════''')
 
 
