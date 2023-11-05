@@ -162,7 +162,7 @@ async def genrate(message: types.Message):
     await message.answer_chat_action('typing')
     ID = message.from_user.id
     FIRST = message.from_user.first_name
-    if len(message.text) == 0:
+    if len(message.text) == 10:
         return await message.reply("<b>Format:\n /gen 549184</b>")
     try:
         x = re.findall(r'\d+', message.text)
